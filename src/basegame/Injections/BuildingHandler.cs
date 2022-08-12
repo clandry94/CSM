@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using CSM.API;
 using CSM.API.Commands;
 using CSM.API.Helpers;
 using CSM.BaseGame.Commands.Data.Buildings;
@@ -15,7 +16,6 @@ namespace CSM.BaseGame.Injections
         public static void Prefix(out CallState __state, object __instance)
         {
             __state = new CallState();
-
             if (IgnoreHelper.Instance.IsIgnored())
             {
                 __state.run = false;

@@ -85,6 +85,7 @@
     <Compile Include="Commands\Data\Districts\DistrictPolicyCommand.cs" />
     <Compile Include="Commands\Data\Districts\DistrictPolicyUnsetCommand.cs" />
     <Compile Include="Commands\Data\Districts\DistrictReleaseCommand.cs" />
+    <Compile Include="Commands\Data\Districts\DistrictParkUpdateCommand.cs" />
     <Compile Include="Commands\Data\Economy\EconomyBailoutCommand.cs" />
     <Compile Include="Commands\Data\Economy\EconomyPayLoanCommand.cs" />
     <Compile Include="Commands\Data\Economy\EconomyResourceCommand.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Commands\Data\Net\SegmentSeedUpdateCommand.cs" />
     <Compile Include="Commands\Data\Parks\ParkCreateCommand.cs" />
     <Compile Include="Commands\Data\Parks\ParkReleaseCommand.cs" />
+    <Compile Include="Commands\Data\Parks\ParkSimulationCommand.cs" />
     <Compile Include="Commands\Data\Props\PropCreateCommand.cs" />
     <Compile Include="Commands\Data\Props\PropMoveCommand.cs" />
     <Compile Include="Commands\Data\Props\PropReleaseCommand.cs" />
@@ -152,6 +154,7 @@
     <Compile Include="Commands\Handler\Districts\DistrictCityPolicyHandler.cs" />
     <Compile Include="Commands\Handler\Districts\DistrictCityPolicyUnsetHandler.cs" />
     <Compile Include="Commands\Handler\Districts\DistrictCreateHandler.cs" />
+    <Compile Include="Commands\Handler\Districts\DistrictParkUpdateHandler.cs" />
     <Compile Include="Commands\Handler\Districts\DistrictPolicyHandler.cs" />
     <Compile Include="Commands\Handler\Districts\DistrictPolicyUnsetHandler.cs" />
     <Compile Include="Commands\Handler\Districts\DistrictReleaseHandler.cs" />
@@ -174,6 +177,7 @@
     <Compile Include="Commands\Handler\Net\SegmentSeedUpdateHandler.cs" />
     <Compile Include="Commands\Handler\Parks\ParkCreateHandler.cs" />
     <Compile Include="Commands\Handler\Parks\ParkReleaseHandler.cs" />
+    <Compile Include="Commands\Handler\Parks\ParkSimulationHandler.cs" />
     <Compile Include="Commands\Handler\Props\PropCreateHandler.cs" />
     <Compile Include="Commands\Handler\Props\PropMoveHandler.cs" />
     <Compile Include="Commands\Handler\Props\PropReleaseHandler.cs" />

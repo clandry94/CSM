@@ -216,6 +216,7 @@ namespace CSM.Commands
                 // Create instances of the handlers, initialize mappings and register command subclasses in the protobuf model
                 foreach (Type type in handlers)
                 {
+                    Log.Info($"Creating handler instance {type}");
                     CommandHandler handler = (CommandHandler)Activator.CreateInstance(type);
                     _cmdMapping.Add(handler.GetDataType(), handler);
 

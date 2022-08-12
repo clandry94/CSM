@@ -467,7 +467,7 @@ namespace CSM.Panels
 
         public void WelcomeChatMessage()
         {
-            PrintGameMessage("Welcome to Cities: Skylines Multiplayer!");
+            PrintGameMessage("Welcome to Cities: Skylines Multiplayer Walmart Edition!");
             PrintGameMessage("The chat can be opened by pressing T and closed by pressing escape.");
             PrintGameMessage("Join our discord server at: https://discord.gg/RjACPhd");
             PrintGameMessage("Type '/help' to see a list of commands and usage.");
